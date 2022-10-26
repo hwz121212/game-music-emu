@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Ay_Apu.h" />
+    <ClInclude Include="include\Ay_Cpu.h" />
+    <ClInclude Include="include\Ay_Emu.h" />
+    <ClInclude Include="include\blargg_common.h" />
+    <ClInclude Include="include\blargg_config.h" />
+    <ClInclude Include="include\blargg_endian.h" />
+    <ClInclude Include="include\blargg_source.h" />
+    <ClInclude Include="include\Blip_Buffer.h" />
+    <ClInclude Include="include\Classic_Emu.h" />
+    <ClInclude Include="include\Data_Reader.h" />
+    <ClInclude Include="include\Dual_Resampler.h" />
+    <ClInclude Include="include\Effects_Buffer.h" />
+    <ClInclude Include="include\Fir_Resampler.h" />
+    <ClInclude Include="include\Gbs_Emu.h" />
+    <ClInclude Include="include\Gb_Apu.h" />
+    <ClInclude Include="include\Gb_Cpu.h" />
+    <ClInclude Include="include\gb_cpu_io.h" />
+    <ClInclude Include="include\Gb_Oscs.h" />
+    <ClInclude Include="include\gme.h" />
+    <ClInclude Include="include\Gme_File.h" />
+    <ClInclude Include="include\Gym_Emu.h" />
+    <ClInclude Include="include\Hes_Apu.h" />
+    <ClInclude Include="include\Hes_Cpu.h" />
+    <ClInclude Include="include\hes_cpu_io.h" />
+    <ClInclude Include="include\Hes_Emu.h" />
+    <ClInclude Include="include\Kss_Cpu.h" />
+    <ClInclude Include="include\Kss_Emu.h" />
+    <ClInclude Include="include\Kss_Scc_Apu.h" />
+    <ClInclude Include="include\M3u_Playlist.h" />
+    <ClInclude Include="include\Multi_Buffer.h" />
+    <ClInclude Include="include\Music_Emu.h" />
+    <ClInclude Include="include\Nes_Apu.h" />
+    <ClInclude Include="include\Nes_Cpu.h" />
+    <ClInclude Include="include\nes_cpu_io.h" />
+    <ClInclude Include="include\Nes_Fme7_Apu.h" />
+    <ClInclude Include="include\Nes_Namco_Apu.h" />
+    <ClInclude Include="include\Nes_Oscs.h" />
+    <ClInclude Include="include\Nes_Vrc6_Apu.h" />
+    <ClInclude Include="include\Nsfe_Emu.h" />
+    <ClInclude Include="include\Nsf_Emu.h" />
+    <ClInclude Include="include\Sap_Apu.h" />
+    <ClInclude Include="include\Sap_Cpu.h" />
+    <ClInclude Include="include\sap_cpu_io.h" />
+    <ClInclude Include="include\Sap_Emu.h" />
+    <ClInclude Include="include\Sms_Apu.h" />
+    <ClInclude Include="include\Sms_Oscs.h" />
+    <ClInclude Include="include\Snes_Spc.h" />
+    <ClInclude Include="include\Spc_Cpu.h" />
+    <ClInclude Include="include\Spc_Dsp.h" />
+    <ClInclude Include="include\Spc_Emu.h" />
+    <ClInclude Include="include\Spc_Filter.h" />
+    <ClInclude Include="include\Vgm_Emu.h" />
+    <ClInclude Include="include\Vgm_Emu_Impl.h" />
+    <ClInclude Include="include\Ym2413_Emu.h" />
+    <ClInclude Include="include\Ym2612_Emu.h" />
+    <ClInclude Include="include\Ym2612_Nuked.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Ay_Apu.cpp" />
+    <ClCompile Include="src\Ay_Cpu.cpp" />
+    <ClCompile Include="src\Ay_Emu.cpp" />
+    <ClCompile Include="src\Blip_Buffer.cpp" />
+    <ClCompile Include="src\Classic_Emu.cpp" />
+    <ClCompile Include="src\Data_Reader.cpp" />
+    <ClCompile Include="src\Dual_Resampler.cpp" />
+    <ClCompile Include="src\Effects_Buffer.cpp" />
+    <ClCompile Include="src\Fir_Resampler.cpp" />
+    <ClCompile Include="src\Gbs_Emu.cpp" />
+    <ClCompile Include="src\Gb_Apu.cpp" />
+    <ClCompile Include="src\Gb_Cpu.cpp" />
+    <ClCompile Include="src\Gb_Oscs.cpp" />
+    <ClCompile Include="src\gme.cpp" />
+    <ClCompile Include="src\Gme_File.cpp" />
+    <ClCompile Include="src\Gym_Emu.cpp" />
+    <ClCompile Include="src\Hes_Apu.cpp" />
+    <ClCompile Include="src\Hes_Cpu.cpp" />
+    <ClCompile Include="src\Hes_Emu.cpp" />
+    <ClCompile Include="src\Kss_Cpu.cpp" />
+    <ClCompile Include="src\Kss_Emu.cpp" />
+    <ClCompile Include="src\Kss_Scc_Apu.cpp" />
+    <ClCompile Include="src\M3u_Playlist.cpp" />
+    <ClCompile Include="src\Multi_Buffer.cpp" />
+    <ClCompile Include="src\Music_Emu.cpp" />
+    <ClCompile Include="src\Nes_Apu.cpp" />
+    <ClCompile Include="src\Nes_Cpu.cpp" />
+    <ClCompile Include="src\Nes_Fme7_Apu.cpp" />
+    <ClCompile Include="src\Nes_Namco_Apu.cpp" />
+    <ClCompile Include="src\Nes_Oscs.cpp" />
+    <ClCompile Include="src\Nes_Vrc6_Apu.cpp" />
+    <ClCompile Include="src\Nsfe_Emu.cpp" />
+    <ClCompile Include="src\Nsf_Emu.cpp" />
+    <ClCompile Include="src\Sap_Apu.cpp" />
+    <ClCompile Include="src\Sap_Cpu.cpp" />
+    <ClCompile Include="src\Sap_Emu.cpp" />
+    <ClCompile Include="src\Sms_Apu.cpp" />
+    <ClCompile Include="src\Snes_Spc.cpp" />
+    <ClCompile Include="src\Spc_Cpu.cpp" />
+    <ClCompile Include="src\Spc_Dsp.cpp" />
+    <ClCompile Include="src\Spc_Emu.cpp" />
+    <ClCompile Include="src\Spc_Filter.cpp" />
+    <ClCompile Include="src\Vgm_Emu.cpp" />
+    <ClCompile Include="src\Vgm_Emu_Impl.cpp" />
+    <ClCompile Include="src\Ym2413_Emu.cpp" />
+    <ClCompile Include="src\Ym2612_Nuked.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>staticlibtemplate</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>VGM_YM2612_NUKED;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_WINDOWS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>VGM_YM2612_NUKED;_WIN32_WINNT=0x0601;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_WINDOWS;NDEBUG</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{c5ffd7a7-ab1b-43fb-a940-61ebf666e903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{736b6146-d7a2-49b6-a9ce-ee3edcce6cbe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Ay_Apu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Ay_Cpu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Ay_Emu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\blargg_common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\blargg_config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\blargg_endian.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\blargg_source.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Blip_Buffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Classic_Emu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Data_Reader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Dual_Resampler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Effects_Buffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Fir_Resampler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gb_Apu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gb_Cpu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gb_cpu_io.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gb_Oscs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gbs_Emu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gme.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gme_File.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gym_Emu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Hes_Apu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Hes_Cpu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hes_cpu_io.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Hes_Emu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Kss_Cpu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Kss_Emu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Kss_Scc_Apu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\M3u_Playlist.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Multi_Buffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Music_Emu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Nes_Apu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Nes_Cpu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nes_cpu_io.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Nes_Fme7_Apu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Nes_Namco_Apu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Nes_Oscs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Nes_Vrc6_Apu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Nsf_Emu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Nsfe_Emu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sap_Apu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sap_Cpu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sap_cpu_io.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sap_Emu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sms_Apu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sms_Oscs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Snes_Spc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Spc_Cpu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Spc_Dsp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Spc_Emu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Spc_Filter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Vgm_Emu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Vgm_Emu_Impl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Ym2413_Emu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Ym2612_Emu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Ym2612_Nuked.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Ay_Apu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ay_Cpu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ay_Emu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Blip_Buffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Classic_Emu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Data_Reader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Dual_Resampler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Effects_Buffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Fir_Resampler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gb_Apu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gb_Cpu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gb_Oscs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gbs_Emu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gme.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gme_File.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gym_Emu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hes_Apu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hes_Cpu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hes_Emu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Kss_Cpu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Kss_Emu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Kss_Scc_Apu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\M3u_Playlist.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Multi_Buffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Music_Emu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Nes_Apu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Nes_Cpu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Nes_Fme7_Apu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Nes_Namco_Apu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Nes_Oscs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Nes_Vrc6_Apu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Nsf_Emu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Nsfe_Emu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sap_Apu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sap_Cpu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sap_Emu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sms_Apu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Snes_Spc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Spc_Cpu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Spc_Dsp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Spc_Emu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Spc_Filter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vgm_Emu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vgm_Emu_Impl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ym2413_Emu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ym2612_Nuked.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
